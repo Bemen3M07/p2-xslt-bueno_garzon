@@ -1,0 +1,66 @@
+/* Estils generals */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Capçalera */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Contingut principal */
+main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.jugadors {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* Targeta del jugador */
+.jugador-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.jugador-card:hover {
+    transform: scale(1.05);
+}
+
+.nom {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.equip, .posicio, .valorMercat {
+    font-size: 1em;
+    color: #666;
+}
+
+/* Peu de pàgina */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.9em;
+}
