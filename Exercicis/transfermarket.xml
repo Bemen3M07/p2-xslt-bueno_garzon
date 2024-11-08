@@ -15,6 +15,7 @@
         <valorMercat>40M€</valorMercat>
         <imagen>img/cristiano.jpg</imagen>
     </jugador>
+    
     <jugador>
         <nom>Kylian Mbappé</nom>
         <equip>Paris Saint-Germain</equip>

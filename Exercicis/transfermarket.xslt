@@ -28,6 +28,8 @@
                                 <p class="valorMercat">Valor de mercat: <xsl:value-of select="valorMercat" /></p>
                             </div>
                         </xsl:for-each>
+
+                        <button onclick="location.href='formulario.xml'">Añadir Nuevos</button>
                     </section>
                 </main>
 
