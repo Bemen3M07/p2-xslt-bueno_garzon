@@ -6,14 +6,14 @@
         <equip>Inter Miami</equip>
         <posicio>Davanter</posicio>
         <valorMercat>60M€</valorMercat>
-        <imagen>img/mbappe.jpg</imagen>
+        <imagen>img/messi.jpg</imagen>
     </jugador>
     <jugador>
         <nom>Cristiano Ronaldo</nom>
         <equip>Al Nassr</equip>
         <posicio>Davanter</posicio>
         <valorMercat>40M€</valorMercat>
-        <imagen>img/mbappe.jpg</imagen>
+        <imagen>img/cristiano.jpg</imagen>
     </jugador>
     <jugador>
         <nom>Kylian Mbappé</nom>
@@ -27,41 +27,41 @@
         <equip>Manchester City</equip>
         <posicio>Davanter</posicio>
         <valorMercat>200M€</valorMercat>
-        <imagen>img/mbappe.jpg</imagen>
+        <imagen>img/haaland.jpg</imagen>
     </jugador>
     <jugador>
         <nom>Lamine Yamal</nom>
         <equip>FC Barcelona</equip>
         <posicio>Extrem dret</posicio>
         <valorMercat>180M€</valorMercat>
-        <imagen>img/mbappe.jpg</imagen>
+        <imagen>img/yamal.jpg</imagen>
     </jugador>
     <jugador>
         <nom>Jude Bellingham</nom>
         <equip>Real Madrid</equip>
         <posicio>Mitjapunta</posicio>
         <valorMercat>180M€</valorMercat>
-        <imagen>img/mbappe.jpg</imagen>
+        <imagen>img/jude.jpg</imagen>
     </jugador>
     <jugador>
         <nom>Phil Foden</nom>
         <equip>Manchester City</equip>
         <posicio>Extrem dret</posicio>
         <valorMercat>90M€</valorMercat>
-        <imagen>img/mbappe.jpg</imagen>
+        <imagen>img/foden.jpg</imagen>
     </jugador>
     <jugador>
         <nom>Bukayo Saka</nom>
         <equip>Arsenal</equip>
         <posicio>Extrem dret</posicio>
         <valorMercat>90M€</valorMercat>
-        <imagen>img/mbappe.jpg</imagen>
+        <imagen>img/saka.jpg</imagen>
     </jugador>
     <jugador>
         <nom>Florian Wirtz</nom>
         <equip>Bayer Leverkusen</equip>
         <posicio>Mitjapunta</posicio>
         <valorMercat>85M€</valorMercat>
-        <imagen>img/mbappe.jpg</imagen>
+        <imagen>img/wirtz.jpg</imagen>
     </jugador>
 </jugadors>
