@@ -6,19 +6,22 @@
     <xsl:template match="/">
         <html>
             <head>
-                <title>Jugadors de Futbol - Transfermarkt</title>
+                <title>Transfermarkt - Jugadors de Futbol</title>
                 <link rel="stylesheet" type="text/css" href="transfermarket.css" />
             </head>
             <body>
                 <header>
-                    <h1>Jugadors de Futbol</h1>
+                    <h1>Transfermarkt - Jugadors de Futbol</h1>
                 </header>
 
                 <main>
                     <section class="jugadors">
-                        <!-- Iterem per cada jugador -->
+                        <!-- Iteramos por cada jugador -->
                         <xsl:for-each select="jugadors/jugador">
                             <div class="jugador-card">
+                                <!-- Mostramos la imagen -->
+                                <img class="jugador-imagen" src="{imagen}" alt="{nom}" />
+
                                 <h2 class="nom"><xsl:value-of select="nom" /></h2>
                                 <p class="equip">Equip: <xsl:value-of select="equip" /></p>
                                 <p class="posicio">Posició: <xsl:value-of select="posicio" /></p>
@@ -29,7 +32,7 @@
                 </main>
 
                 <footer>
-                    <p>&#169; 2023 Transfermarkt - Jugadors de Futbol</p>
+                    <p>&#169; 2024 Transfermarkt - Jugadors de Futbol</p>
                 </footer>
             </body>
         </html>
