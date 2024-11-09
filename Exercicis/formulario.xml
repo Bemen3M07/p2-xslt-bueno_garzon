@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="formulario.xslt"?>
-<formulario>
-    <nom></nom>
-    <equip></equip>
-    <posicio></posicio>
-    <valorMercat></valorMercat>
-    <imagen></imagen>
-</formulario>
+<?xml-stylesheet type="text/xsl" href="formulario.xsl"?>
+<formulari>
+    <jugador>
+        <nom></nom>
+        <equip></equip>
+        <posicio></posicio>
+        <valorMercat></valorMercat>
+        <imatge></imatge>
+    </jugador>
+</formulari>
