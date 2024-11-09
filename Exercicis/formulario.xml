@@ -1,11 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?><!-- Declaració de la versió XML i l'encoding del document -->
+<!-- Vinculació de la fulla d'estils XSL per a la presentació del formulari -->
 <?xml-stylesheet type="text/xsl" href="formulario.xsl"?>
+<!-- Element arrel que conté el formulari per introduir un jugador -->
 <formulari>
+    <!-- Element que conté la informació d'un jugador. En aquest cas, el formulari permetrà omplir les dades del jugador. -->
     <jugador>
+        <!-- Camp per omplir el nom del jugador -->
         <nom></nom>
+        <!-- Camp per omplir l'equip del jugador -->        
         <equip></equip>
+        <!-- Camp per omplir la posició del jugador (ex: davanter, migcampista, etc.) -->
         <posicio></posicio>
+        <!-- Camp per omplir el valor de mercat del jugador -->
         <valorMercat></valorMercat>
+        <!-- Camp per seleccionar o introduir la imatge del jugador -->
         <imatge></imatge>
+
     </jugador>
 </formulari>
